@@ -39,6 +39,9 @@ app.use('/upload', require('./api/upload'));
 // 用户登录api
 app.use('/login', require('./api/userMid'));
 
+// app日常使用数据
+app.use('/usingdata', require('./api/usingdataMid'));
+
 // 处理错误的中间件
 app.use(require('./errorMId'));
 

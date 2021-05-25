@@ -5,3 +5,5 @@ require('./init');
 // require('./mock/cItem');
 // 模拟商品数据
 // require('./mock/product');
+// 模拟app日常使用数据
+// require('./mock/usingdata');
